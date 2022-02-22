@@ -4,7 +4,7 @@ public class Sketch extends PApplet {
 	
 	
   public void settings() {
-    size(500, 500);
+    size(1000, 500);
   }
 
   public void setup() {
@@ -28,17 +28,17 @@ public class Sketch extends PApplet {
     
     //The Door
     stroke(21, 244, 238);
-    line(375, 250, 250, 150);
-    line(125, 250, 250, 150);
+    line((float)(width/1.33), height/2, width/2, (float)(height/3.33));
+    line(width/4, height/2, width/2, (float)(height/3.33));
 
     //The Doorknob
     stroke(255, 247, 0);
-    ellipse(280, 455, 10, 10);
+    ellipse((float)(width/1.785), (float)(height/1.098), width/50, height/50);
 
     //The Moon
     stroke(255);
     fill(255);
-    ellipse(0, 0, 250, 250);
+    ellipse(width*0, height*0, width/2, height/2);
     
     
   }
