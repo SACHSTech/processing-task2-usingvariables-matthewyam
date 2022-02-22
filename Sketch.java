@@ -19,12 +19,12 @@ public class Sketch extends PApplet {
     stroke(152, 251, 152);
     line(width/4, height/2, width/4, height);
     line((float) (width/1.33), (float)(height/2), (float)(width/1.33), (float)(height));  
-    line(125, 250, 375, 250);
+    line(width/4, height/2, (float)(width/1.33), height/2);
     
     //The body of the house
     stroke(255, 0, 0);
     fill(0, 0, 0);
-    rect(210, 400, 80, 490);
+    rect((float)(width/2.38), (float)(height/1.25), (float)(width/6.25), (float)(height/1.02));
     
     //The Door
     stroke(21, 244, 238);
